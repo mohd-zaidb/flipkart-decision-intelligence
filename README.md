@@ -10,8 +10,6 @@ Clone the repo, go to the project root, and run these commands in order:
 
 ```bash
 python -m venv .venv
-# Windows PowerShell: .\.venv\Scripts\Activate.ps1
-# macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 python generate_data.py
 python part1.py
